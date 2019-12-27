@@ -1,0 +1,51 @@
+# compilation and distribution
+__pycache__
+_ext
+*.pyc
+*.so
+maskrcnn_benchmark.egg-info/
+build/
+dist/
+
+# pytorch/python/numpy formats
+*.pth
+*.pkl
+*.npy
+*.jpg
+*.png
+*.tif*
+*.txt
+*.pth
+*.doc
+*.docx
+*.yaml
+*.zip
+*.xml
+*.json
+*.tfw
+*.cpg
+*.dbf
+*.mxd
+*.sbn
+*.sbx
+*.shx
+*.prj
+*.shp
+
+# ipython/jupyter notebooks
+*.ipynb
+**/.ipynb_checkpoints/
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+
+# Pycharm editor settings
+.idea
+# Project dir
+/*_test
+/data_*
+/venv
+/VOCdevkit
